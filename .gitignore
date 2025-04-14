@@ -1,0 +1,36 @@
+## Игнорируем пользовательские настройки проекта
+# Файлы с личными настройками Xcode, не влияющими на сборку проекта
+xcuserdata/
+## Временные файлы сборки и устаревшие конфигурации
+# Каталог сборки и кэш Xcode
+build/
+DerivedData/
+# Файлы, которые Xcode переименовал при конфликтах
+*.moved-aside
+# Устаревшие пользовательские файлы конфигурации проекта
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+## Специфично для Swift и Objective-C
+# Хедер-мапы (header maps), генерируются автоматически компилятором
+*.hmap
+## Артефакты сборки (не нужны в репозитории)
+# Финальные архивы приложения и отладочные символы
+*.ipa
+*.dSYM.zip
+*.dSYM
+## Swift Playgrounds
+# Временные файлы, создаваемые Playground'ами
+timeline.xctimeline
+playground.xcworkspace
+## Swift Package Manager
+# Папка с результатами сборки зависимостей
+.build/
+## Системный файл macOS
+# Невидимый файл, создаваемый Finder в каждой папке
+.DS_Store
