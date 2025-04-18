@@ -12,5 +12,5 @@ import Foundation
 func logining(login: String, passord: String) {
     print("Введите логин")
     let login = readLine() ?? ""
-    print("Введите логин")
+    print("Введите пароль")
 }
